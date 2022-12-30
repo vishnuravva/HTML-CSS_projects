@@ -1,0 +1,159 @@
+<!-- Optimised way performed in freecodecamp-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nutrition Label</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="label">
+        <header>
+            <h1 class="bold">Nutrition Facts</h1>
+            <div class="divider"></div>
+            <p>8 servings per container</p>
+            <p class="bold">Serving size <span class="right">2/3 cup (55g)</span></p>
+        </header>
+        <div class="divider lg"></div>
+        <div class="calories-info">
+            <p class="bold sm-text">Amount per serving</p>
+            <h1>Calories <span class="right">230</span></h1>
+        </div>
+        <div class="divider md"></div>
+        <div class="daily-value sm-text">
+            <p class="right bold no-divider">% Daily Value *</p>
+            <div class="divider"></div>
+            <p><span class="bold">Total Fat</span> 8g <span class="bold right">10%</span></p>
+            <p class="indent no-divider">Saturated Fat 1g <span class="bold right">5%</span></p>
+            <div class="divider"></div>
+            <p class="indent no-divider"><i>Trans</i> Fat 0g</p>
+            <div class="divider"></div>
+            <p><span class="bold">Cholesterol</span> 0mg <span class="right bold">0%</span></p>
+            <p><span class="bold">Sodium</span> 160mg <span class="right bold">7%</span></p>
+            <p><span class="bold">Total Carbohydrate</span> 37g <span class="right bold">13%</span></p>
+            <p class="indent no-divider">Dietary Fiber 4g</p>
+            <div class="divider"></div>
+            <p class="indent no-divider">Total Sugars 12g</p>
+            <div class="divider dbl-indent"></div>
+            <p class="dbl-indent no-divider">Includes 10g Added Sugars <span class="right bold">20%</span>
+            <div class="divider"></div>
+            <p class="no-divider"><span class="bold">Protein</span> 3g</p>
+            <div class="divider lg"></div>
+            <p>Vitamin D 2mcg <span class="right">10%</span></p>
+            <p>Calcium 260mg <span class="right">20%</span></p>
+            <p>Iron 8mg <span class="right">45%</span></p>
+            <p class="no-divider">Potassium 235mg <span class="right">6%</span></p>
+        </div>
+        <div class="divider md"></div>
+        <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a
+            daily diet. 2,000 calories a day is used for general nutrition advice.</p>
+    </div>
+</body>
+
+</html>
+
+<!-- My approach -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Nutrition Facts</h1>
+        <hr class="first">
+        <p>8 servings per container</p>
+        <div class="serving1">
+            <p class="serving-size1">Serving size</p>
+            <p class="serving-size2">2/3 cup (55g)</p>
+        </div>
+        <hr class="second">
+        <p class="amtPerServing">Amount per serving</p>
+        <div class="amtPerServing1">
+            <p class="calories">Calories</p>
+            <p class="calories1">230</p>
+        </div>
+        <hr class="third">
+        <div class="daily">
+            <p class="daily-value">% Daily Value *</p>
+        </div>
+        <hr class="forth">
+        <div class="serving2">
+            <p class="total-fat">Total Fat 8g</p>
+            <p class="total-fat1">10%</p>
+        </div>
+        <hr class="fifth">
+        <div class="serving3">
+            <p class="satFat">Saturated Fat 1g</p>
+            <p class="total-fat1">5%</p>
+
+        </div>
+        <hr class="sixth">
+        <div class="serving4">
+            <p class="totalFat">Trans Fat 0g</p>
+        </div>
+        <hr class="seven">
+        <div class="serving5">
+            <p class="serving-size1">Cholesterol 0mg</p>
+            <p class="total-fat1">0%</p>
+
+        </div>
+        <hr class="eight">
+        <div class="serving6">
+            <p class="serving-size1">Sodium 160mg</p>
+            <p class="serving-size2">7%</p>
+        </div>
+        <hr class="nine">
+        <div class="serving6">
+            <p class="carbs">Total Carbohydrate 37g </p>
+            <p class="carbs">13%</p>
+        </div>
+        <hr class="nine">
+        <div class="serving7">
+            <p class="totalFat">Dietary Fiber 4g</p>
+        </div><hr class="tenth">
+        <div class="serving8">
+            <p class="totalFat">Total Sugars 12g</p>
+        </div><hr class="eleven">
+        <div class="serving9">
+            <p class="includes">Includes 10g Added Sugars</p>
+            <p class="includes1">20%</p>
+            
+        </div><hr class="twelve">
+        <div class="serving10">
+            <p class="protein">Protein 3g</p>
+        </div><hr class="thirteen">
+        <div class="serving6">
+            <p class="vit">Vitamin D 2mcg </p>
+            <p class="vit1">10%</p>
+        </div><hr class="twelve">
+        <div class="serving6">
+            <p class="cal">Calcium 260mg </p>
+            <p class="cal1">20%</p>
+        </div><hr class="twelve">
+        <div class="serving6">
+            <p class="iron">Iron 8mg </p>
+            <p class="iron1">45%</p>
+        </div><hr class="twelve">
+        <div class="serving6">
+            <p class="pot">Potassium 235mg </p>
+            <p class="pot1">6%</p>
+        </div><hr class="third">
+
+        <div class="info">
+            * The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet.2,000 calories a day is used for general nutrition advice.
+        </div>
+    </div>
+
+</body>
+
+</html> -->

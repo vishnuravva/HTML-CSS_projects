@@ -1,0 +1,210 @@
+/* Optimised way performed in freecodecamp */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: right;
+  }
+  
+  .bold {
+    font-weight: 800;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .lg {
+    height: 10px;
+  }
+  
+  .lg, .md {
+    background-color: black;
+    border: 0;
+  }
+  
+  .md {
+    height: 5px;
+  }
+  
+  .sm-text {
+    font-size: 0.85rem;
+  }
+  
+  .calories-info h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+  }
+  
+  .calories-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+  }
+  
+  .indent {
+    margin-left: 1em;
+  }
+  
+  .dbl-indent {
+    margin-left: 2em;
+  }
+  
+  .daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+  }
+  
+  .note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding:0 8px;
+    text-indent:-8px;
+  }
+
+  /* My approach*/
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width:10%;
+    max-width:450px;
+    min-width: 400px;
+    height:auto;
+    border: 2px solid black;
+    margin:20px auto;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first,.forth,.fifth,.sixth,.seven,.eight,.nine,.tenth,.twelve{
+    margin-left: 15px;
+   width: 92%;
+   color: black;
+
+}
+.eleven{
+    margin-left: 30px;
+    width: 349px;
+
+}
+p{
+    font-size: 20px;
+    margin: 5px 0 5px 20px;
+
+}
+.serving1,.serving2,.serving3,.serving4,.serving5,.serving6,.serving9,.amtPerServing1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second,.thirteen{
+    margin-left: 15px;
+    width: 92%;
+    background-color: black;
+    padding: 6px;
+    
+}
+.carbs,.serving-size1,.amtPerServing,.total-fat,.total-fat1{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.serving-size2{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calories{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: -15px 0 0 15px;
+}
+.calories1{
+    margin: -18px 20px 0 0;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.third{
+    
+    margin-left: 15px;
+    width: 92%;
+    background-color: black;
+    padding: 3px;
+    
+}
+.daily{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.daily-value,.total-fat1,.carbs,.includes1,.protein{
+    margin-right: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.serving3{
+    margin-left: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.serving4{
+    font-style: italic;
+    margin-left: 23px;
+}
+.serving9{
+    margin-left: 20px;
+}
+.vit,.vit1,.pot,.pot1,.iron,.iron1,.cal,.cal1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.vit1,.pot1,.cal1,.iron1{
+    margin-right: 20px;
+}
+.info{
+    text-align: center;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+} */
